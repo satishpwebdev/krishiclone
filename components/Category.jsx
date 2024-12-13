@@ -16,23 +16,23 @@ const Category = () => {
     <>
       <div className="relative w-full py-10">
         <button
-          className={`swiper-button-prev-cat absolute top-[60%] left-2 z-10 rounded-full transform -translate-y-1/2 bg-white text-white px-1 py-1 ${
+          className={`swiper-button-prev-cat absolute top-[56%] left-2 z-10 rounded-full transform -translate-y-1/2 bg-white text-white px-1 py-1 ${
             isBeginning ? "cursor-not-allowed opacity-50 hidden" : ""
           }`}
           aria-label="Previous Slide"
           disabled={isBeginning}
         >
-          <IoIosArrowBack className="text-black" size={30} />
+          <IoIosArrowBack className="text-black"  />
         </button>
 
         <button
-          className={`swiper-button-next-cat absolute top-[60%] right-2 z-10 rounded-full transform -translate-y-1/2 bg-white text-white px-1 py-1 ${
+          className={`swiper-button-next-cat absolute top-[56%] right-2 z-10 rounded-full transform -translate-y-1/2 bg-white text-white px-1 py-1 ${
             isEnd ? "cursor-not-allowed opacity-50 hidden" : ""
           }`}
           aria-label="Next Slide"
           disabled={isEnd}
         >
-          <IoIosArrowForward className="text-black" size={30} />
+          <IoIosArrowForward className="text-black"  />
         </button>
 
         <div className="text-black mt-12">

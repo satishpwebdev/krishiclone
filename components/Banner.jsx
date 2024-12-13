@@ -11,17 +11,17 @@ const Banner = () => {
     <>
       <div className="relative w-full py-2">
         <button
-          className="swiper-button-prev-custom absolute top-1/2 left-14 z-10 rounded-full transform -translate-y-1/2 bg-white text-white px-1 py-1"
+          className="swiper-button-prev-custom absolute top-1/2 left-4 md:left-14 z-10 rounded-full transform -translate-y-1/2 bg-white text-white px-1 py-1"
           aria-label="Previous Slide"
         >
-          <IoIosArrowBack className="text-black" size={30} />
+          <IoIosArrowBack className="text-black"  />
         </button>
 
         <button
-          className="swiper-button-next-custom absolute top-1/2 right-14 z-10 rounded-full transform -translate-y-1/2 bg-white text-white px-1 py-1 "
+          className="swiper-button-next-custom absolute top-1/2 right-4 md:right-14 z-10 rounded-full transform -translate-y-1/2 bg-white text-white px-1 py-1 "
           aria-label="Next Slide"
         >
-          <IoIosArrowForward className="text-black" size={30} />
+          <IoIosArrowForward className="text-black"  />
         </button>
         <div className="my-2">
           <Swiper

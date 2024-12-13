@@ -14,23 +14,23 @@ const Trending = () => {
     <>
       <div className="relative w-full py-2">
         <button
-          className={`swiper-button-prev-tn absolute top-[60%] left-2 z-10 rounded-full transform -translate-y-1/2 bg-white text-white px-1 py-1 ${
+          className={`swiper-button-prev-tn absolute top-[50%] md:top-[56%] left-2 z-10 rounded-full transform -translate-y-1/2 bg-white text-white px-1 py-1 ${
             isBeginning ? "cursor-not-allowed opacity-50 hidden" : ""
           }`}
           aria-label="Previous Slide"
           disabled={isBeginning}
         >
-          <IoIosArrowBack className="text-black" size={30} />
+          <IoIosArrowBack className="text-black"  />
         </button>
 
         <button
-          className={`swiper-button-next-tn absolute top-[60%] right-2 z-10 rounded-full transform -translate-y-1/2 bg-white text-white px-1 py-1 ${
+          className={`swiper-button-next-tn absolute top-[50%] md:top-[56%] right-2 z-10 rounded-full transform -translate-y-1/2 bg-white text-white px-1 py-1 ${
             isEnd ? "cursor-not-allowed opacity-50 hidden" : ""
           }`}
           aria-label="Next Slide"
           disabled={isEnd}
         >
-          <IoIosArrowForward className="text-black" size={30} />
+          <IoIosArrowForward className="text-black"  />
         </button>
 
         <div className="text-black mt-2">
@@ -64,7 +64,7 @@ const Trending = () => {
             }}
             className="mySwiper"
           >
-            {trending.slice(0,25).map((item) => (
+            {trending.slice(0, 25).map((item) => (
               <SwiperSlide key={item.id}>
                 <div className="flex flex-col items-center justify-center">
                   <div className="bg-white rounded-full px-4 py-4 md:px-10 md:py-10 my-4 hover:shadow-lg hover:-translate-y-1 transform-gpu  hover:cursor-pointer ">
