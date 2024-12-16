@@ -1,6 +1,14 @@
 import React from "react";
 import { trending } from "@/constants/trending";
 const ProductList = () => {
+
+
+
+  //discount calculation
+  function discount(item){
+    let discount = (item.prices.mrp - item.prices.selling_price) / item.prices.mrp * 100;
+    return discount.toFixed(2);
+  }
   return (
     <>
       <div className="flex w-full flex-col">
@@ -35,9 +43,9 @@ const ProductList = () => {
                       </button>
                     </div>
                     <div className="absolute text right-0 top-0">
-                      <div className="absolute right-[-50px] top-[32px] w-[170px] rotate-45 transform bg-green-700 py-1 text-center font-semibold text-white">
+                      <div className="absolute right-[-50px] top-[32px] w-[170px] rotate-45 transform bg-green-900 py-1 text-center font-semibold text-white">
                         <div className="discount-value text-sm text">
-                          30.00
+                          {discount(item)}
                           <span className="discount-text">% off</span>
                         </div>
                       </div>
@@ -57,8 +65,8 @@ const ProductList = () => {
                     </h3>
                     <h3 class="mb-4 cursor-pointer truncate text-xs text-body md:text-sm"></h3>
                   </div>
-                  <h3 className="text-brown-color mb-4 cursor-pointer truncate text-xs text-body md:text-sm">
-                    Bayer
+                  <h3 className="text-orange-900 mb-4 font-semibold cursor-pointer  truncate text-xs text-body md:text-sm">
+                    {item.product_info.brand_info.name["en"]}
                   </h3>
                 </header>
               </article>
