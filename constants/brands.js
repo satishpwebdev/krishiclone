@@ -286,5 +286,389 @@ export const brands = [
       1: "Gencrest is a biotech company that develops sustainable products and solutions for everyday life. Their mission is to create green science for greener lives. ",
       2: "जेनक्रेस्ट एक बायोटेक कंपनी है जो रोजमर्रा की जिंदगी के लिए टिकाऊ उत्पाद और समाधान विकसित करती है। उनका मिशन हरित जीवन के लिए हरित विज्ञान का निर्माण करना है।"
     }
-  }
+  },
+  {
+    brand_image:
+      "https://kborg.s3.ap-south-1.amazonaws.com/1/brand_image/c77a3b3b-9b73-4786-b739-b18852318af3__original.png",
+    is_active: true,
+    additional_information: null,
+    created_by: "3475bb72-0c1d-11ee-8c4c-3417ebf03b70",
+    created_on: 1733579883,
+    updated_by: "3475bb72-0c1d-11ee-8c4c-3417ebf03b70",
+    updated_on: 1733579883,
+    brand_id: "d5b74b07-8979-44b6-a328-4b6287a36b26",
+    organization_id: 1,
+    brand_name: {
+      1: "GENCREST",
+      2: "जेनक्रेस्ट"
+    },
+    display_priority: 36,
+    is_featured: true,
+    brand_name_default_en: "GENCREST",
+    slug: "GENCREST",
+    brand_description: {
+      1: "Gencrest is a biotech company that develops sustainable products and solutions for everyday life. Their mission is to create green science for greener lives. ",
+      2: "जेनक्रेस्ट एक बायोटेक कंपनी है जो रोजमर्रा की जिंदगी के लिए टिकाऊ उत्पाद और समाधान विकसित करती है। उनका मिशन हरित जीवन के लिए हरित विज्ञान का निर्माण करना है।"
+    }
+  },
+  {
+    brand_image:
+      "https://kborg.s3.ap-south-1.amazonaws.com/1/brand_image/c77a3b3b-9b73-4786-b739-b18852318af3__original.png",
+    is_active: true,
+    additional_information: null,
+    created_by: "3475bb72-0c1d-11ee-8c4c-3417ebf03b70",
+    created_on: 1733579883,
+    updated_by: "3475bb72-0c1d-11ee-8c4c-3417ebf03b70",
+    updated_on: 1733579883,
+    brand_id: "d5b74b07-8979-44b6-a328-4b6287a36b26",
+    organization_id: 1,
+    brand_name: {
+      1: "GENCREST",
+      2: "जेनक्रेस्ट"
+    },
+    display_priority: 36,
+    is_featured: true,
+    brand_name_default_en: "GENCREST",
+    slug: "GENCREST",
+    brand_description: {
+      1: "Gencrest is a biotech company that develops sustainable products and solutions for everyday life. Their mission is to create green science for greener lives. ",
+      2: "जेनक्रेस्ट एक बायोटेक कंपनी है जो रोजमर्रा की जिंदगी के लिए टिकाऊ उत्पाद और समाधान विकसित करती है। उनका मिशन हरित जीवन के लिए हरित विज्ञान का निर्माण करना है।"
+    }
+  },
+  {
+    brand_image:
+      "https://kborg.s3.ap-south-1.amazonaws.com/1/brand_image/c77a3b3b-9b73-4786-b739-b18852318af3__original.png",
+    is_active: true,
+    additional_information: null,
+    created_by: "3475bb72-0c1d-11ee-8c4c-3417ebf03b70",
+    created_on: 1733579883,
+    updated_by: "3475bb72-0c1d-11ee-8c4c-3417ebf03b70",
+    updated_on: 1733579883,
+    brand_id: "d5b74b07-8979-44b6-a328-4b6287a36b26",
+    organization_id: 1,
+    brand_name: {
+      1: "GENCREST",
+      2: "जेनक्रेस्ट"
+    },
+    display_priority: 36,
+    is_featured: true,
+    brand_name_default_en: "GENCREST",
+    slug: "GENCREST",
+    brand_description: {
+      1: "Gencrest is a biotech company that develops sustainable products and solutions for everyday life. Their mission is to create green science for greener lives. ",
+      2: "जेनक्रेस्ट एक बायोटेक कंपनी है जो रोजमर्रा की जिंदगी के लिए टिकाऊ उत्पाद और समाधान विकसित करती है। उनका मिशन हरित जीवन के लिए हरित विज्ञान का निर्माण करना है।"
+    }
+  },
+  {
+    brand_image:
+      "https://kborg.s3.ap-south-1.amazonaws.com/1/brand_image/c77a3b3b-9b73-4786-b739-b18852318af3__original.png",
+    is_active: true,
+    additional_information: null,
+    created_by: "3475bb72-0c1d-11ee-8c4c-3417ebf03b70",
+    created_on: 1733579883,
+    updated_by: "3475bb72-0c1d-11ee-8c4c-3417ebf03b70",
+    updated_on: 1733579883,
+    brand_id: "d5b74b07-8979-44b6-a328-4b6287a36b26",
+    organization_id: 1,
+    brand_name: {
+      1: "GENCREST",
+      2: "जेनक्रेस्ट"
+    },
+    display_priority: 36,
+    is_featured: true,
+    brand_name_default_en: "GENCREST",
+    slug: "GENCREST",
+    brand_description: {
+      1: "Gencrest is a biotech company that develops sustainable products and solutions for everyday life. Their mission is to create green science for greener lives. ",
+      2: "जेनक्रेस्ट एक बायोटेक कंपनी है जो रोजमर्रा की जिंदगी के लिए टिकाऊ उत्पाद और समाधान विकसित करती है। उनका मिशन हरित जीवन के लिए हरित विज्ञान का निर्माण करना है।"
+    }
+  },
+  {
+    brand_image:
+      "https://kborg.s3.ap-south-1.amazonaws.com/1/brand_image/c77a3b3b-9b73-4786-b739-b18852318af3__original.png",
+    is_active: true,
+    additional_information: null,
+    created_by: "3475bb72-0c1d-11ee-8c4c-3417ebf03b70",
+    created_on: 1733579883,
+    updated_by: "3475bb72-0c1d-11ee-8c4c-3417ebf03b70",
+    updated_on: 1733579883,
+    brand_id: "d5b74b07-8979-44b6-a328-4b6287a36b26",
+    organization_id: 1,
+    brand_name: {
+      1: "GENCREST",
+      2: "जेनक्रेस्ट"
+    },
+    display_priority: 36,
+    is_featured: true,
+    brand_name_default_en: "GENCREST",
+    slug: "GENCREST",
+    brand_description: {
+      1: "Gencrest is a biotech company that develops sustainable products and solutions for everyday life. Their mission is to create green science for greener lives. ",
+      2: "जेनक्रेस्ट एक बायोटेक कंपनी है जो रोजमर्रा की जिंदगी के लिए टिकाऊ उत्पाद और समाधान विकसित करती है। उनका मिशन हरित जीवन के लिए हरित विज्ञान का निर्माण करना है।"
+    }
+  },
+  {
+    brand_image:
+      "https://kborg.s3.ap-south-1.amazonaws.com/1/brand_image/c77a3b3b-9b73-4786-b739-b18852318af3__original.png",
+    is_active: true,
+    additional_information: null,
+    created_by: "3475bb72-0c1d-11ee-8c4c-3417ebf03b70",
+    created_on: 1733579883,
+    updated_by: "3475bb72-0c1d-11ee-8c4c-3417ebf03b70",
+    updated_on: 1733579883,
+    brand_id: "d5b74b07-8979-44b6-a328-4b6287a36b26",
+    organization_id: 1,
+    brand_name: {
+      1: "GENCREST",
+      2: "जेनक्रेस्ट"
+    },
+    display_priority: 36,
+    is_featured: true,
+    brand_name_default_en: "GENCREST",
+    slug: "GENCREST",
+    brand_description: {
+      1: "Gencrest is a biotech company that develops sustainable products and solutions for everyday life. Their mission is to create green science for greener lives. ",
+      2: "जेनक्रेस्ट एक बायोटेक कंपनी है जो रोजमर्रा की जिंदगी के लिए टिकाऊ उत्पाद और समाधान विकसित करती है। उनका मिशन हरित जीवन के लिए हरित विज्ञान का निर्माण करना है।"
+    }
+  },
+  {
+    brand_image:
+      "https://kborg.s3.ap-south-1.amazonaws.com/1/brand_image/c77a3b3b-9b73-4786-b739-b18852318af3__original.png",
+    is_active: true,
+    additional_information: null,
+    created_by: "3475bb72-0c1d-11ee-8c4c-3417ebf03b70",
+    created_on: 1733579883,
+    updated_by: "3475bb72-0c1d-11ee-8c4c-3417ebf03b70",
+    updated_on: 1733579883,
+    brand_id: "d5b74b07-8979-44b6-a328-4b6287a36b26",
+    organization_id: 1,
+    brand_name: {
+      1: "GENCREST",
+      2: "जेनक्रेस्ट"
+    },
+    display_priority: 36,
+    is_featured: true,
+    brand_name_default_en: "GENCREST",
+    slug: "GENCREST",
+    brand_description: {
+      1: "Gencrest is a biotech company that develops sustainable products and solutions for everyday life. Their mission is to create green science for greener lives. ",
+      2: "जेनक्रेस्ट एक बायोटेक कंपनी है जो रोजमर्रा की जिंदगी के लिए टिकाऊ उत्पाद और समाधान विकसित करती है। उनका मिशन हरित जीवन के लिए हरित विज्ञान का निर्माण करना है।"
+    }
+  },
+  {
+    brand_image:
+      "https://kborg.s3.ap-south-1.amazonaws.com/1/brand_image/c77a3b3b-9b73-4786-b739-b18852318af3__original.png",
+    is_active: true,
+    additional_information: null,
+    created_by: "3475bb72-0c1d-11ee-8c4c-3417ebf03b70",
+    created_on: 1733579883,
+    updated_by: "3475bb72-0c1d-11ee-8c4c-3417ebf03b70",
+    updated_on: 1733579883,
+    brand_id: "d5b74b07-8979-44b6-a328-4b6287a36b26",
+    organization_id: 1,
+    brand_name: {
+      1: "GENCREST",
+      2: "जेनक्रेस्ट"
+    },
+    display_priority: 36,
+    is_featured: true,
+    brand_name_default_en: "GENCREST",
+    slug: "GENCREST",
+    brand_description: {
+      1: "Gencrest is a biotech company that develops sustainable products and solutions for everyday life. Their mission is to create green science for greener lives. ",
+      2: "जेनक्रेस्ट एक बायोटेक कंपनी है जो रोजमर्रा की जिंदगी के लिए टिकाऊ उत्पाद और समाधान विकसित करती है। उनका मिशन हरित जीवन के लिए हरित विज्ञान का निर्माण करना है।"
+    }
+  },
+  {
+    brand_image:
+      "https://kborg.s3.ap-south-1.amazonaws.com/1/brand_image/c77a3b3b-9b73-4786-b739-b18852318af3__original.png",
+    is_active: true,
+    additional_information: null,
+    created_by: "3475bb72-0c1d-11ee-8c4c-3417ebf03b70",
+    created_on: 1733579883,
+    updated_by: "3475bb72-0c1d-11ee-8c4c-3417ebf03b70",
+    updated_on: 1733579883,
+    brand_id: "d5b74b07-8979-44b6-a328-4b6287a36b26",
+    organization_id: 1,
+    brand_name: {
+      1: "GENCREST",
+      2: "जेनक्रेस्ट"
+    },
+    display_priority: 36,
+    is_featured: true,
+    brand_name_default_en: "GENCREST",
+    slug: "GENCREST",
+    brand_description: {
+      1: "Gencrest is a biotech company that develops sustainable products and solutions for everyday life. Their mission is to create green science for greener lives. ",
+      2: "जेनक्रेस्ट एक बायोटेक कंपनी है जो रोजमर्रा की जिंदगी के लिए टिकाऊ उत्पाद और समाधान विकसित करती है। उनका मिशन हरित जीवन के लिए हरित विज्ञान का निर्माण करना है।"
+    }
+  },
+  {
+    brand_image:
+      "https://kborg.s3.ap-south-1.amazonaws.com/1/brand_image/c77a3b3b-9b73-4786-b739-b18852318af3__original.png",
+    is_active: true,
+    additional_information: null,
+    created_by: "3475bb72-0c1d-11ee-8c4c-3417ebf03b70",
+    created_on: 1733579883,
+    updated_by: "3475bb72-0c1d-11ee-8c4c-3417ebf03b70",
+    updated_on: 1733579883,
+    brand_id: "d5b74b07-8979-44b6-a328-4b6287a36b26",
+    organization_id: 1,
+    brand_name: {
+      1: "GENCREST",
+      2: "जेनक्रेस्ट"
+    },
+    display_priority: 36,
+    is_featured: true,
+    brand_name_default_en: "GENCREST",
+    slug: "GENCREST",
+    brand_description: {
+      1: "Gencrest is a biotech company that develops sustainable products and solutions for everyday life. Their mission is to create green science for greener lives. ",
+      2: "जेनक्रेस्ट एक बायोटेक कंपनी है जो रोजमर्रा की जिंदगी के लिए टिकाऊ उत्पाद और समाधान विकसित करती है। उनका मिशन हरित जीवन के लिए हरित विज्ञान का निर्माण करना है।"
+    }
+  },
+  {
+    brand_image:
+      "https://kborg.s3.ap-south-1.amazonaws.com/1/brand_image/c77a3b3b-9b73-4786-b739-b18852318af3__original.png",
+    is_active: true,
+    additional_information: null,
+    created_by: "3475bb72-0c1d-11ee-8c4c-3417ebf03b70",
+    created_on: 1733579883,
+    updated_by: "3475bb72-0c1d-11ee-8c4c-3417ebf03b70",
+    updated_on: 1733579883,
+    brand_id: "d5b74b07-8979-44b6-a328-4b6287a36b26",
+    organization_id: 1,
+    brand_name: {
+      1: "GENCREST",
+      2: "जेनक्रेस्ट"
+    },
+    display_priority: 36,
+    is_featured: true,
+    brand_name_default_en: "GENCREST",
+    slug: "GENCREST",
+    brand_description: {
+      1: "Gencrest is a biotech company that develops sustainable products and solutions for everyday life. Their mission is to create green science for greener lives. ",
+      2: "जेनक्रेस्ट एक बायोटेक कंपनी है जो रोजमर्रा की जिंदगी के लिए टिकाऊ उत्पाद और समाधान विकसित करती है। उनका मिशन हरित जीवन के लिए हरित विज्ञान का निर्माण करना है।"
+    }
+  },
+  {
+    brand_image:
+      "https://kborg.s3.ap-south-1.amazonaws.com/1/brand_image/c77a3b3b-9b73-4786-b739-b18852318af3__original.png",
+    is_active: true,
+    additional_information: null,
+    created_by: "3475bb72-0c1d-11ee-8c4c-3417ebf03b70",
+    created_on: 1733579883,
+    updated_by: "3475bb72-0c1d-11ee-8c4c-3417ebf03b70",
+    updated_on: 1733579883,
+    brand_id: "d5b74b07-8979-44b6-a328-4b6287a36b26",
+    organization_id: 1,
+    brand_name: {
+      1: "GENCREST",
+      2: "जेनक्रेस्ट"
+    },
+    display_priority: 36,
+    is_featured: true,
+    brand_name_default_en: "GENCREST",
+    slug: "GENCREST",
+    brand_description: {
+      1: "Gencrest is a biotech company that develops sustainable products and solutions for everyday life. Their mission is to create green science for greener lives. ",
+      2: "जेनक्रेस्ट एक बायोटेक कंपनी है जो रोजमर्रा की जिंदगी के लिए टिकाऊ उत्पाद और समाधान विकसित करती है। उनका मिशन हरित जीवन के लिए हरित विज्ञान का निर्माण करना है।"
+    }
+  },
+  {
+    brand_image:
+      "https://kborg.s3.ap-south-1.amazonaws.com/1/brand_image/c77a3b3b-9b73-4786-b739-b18852318af3__original.png",
+    is_active: true,
+    additional_information: null,
+    created_by: "3475bb72-0c1d-11ee-8c4c-3417ebf03b70",
+    created_on: 1733579883,
+    updated_by: "3475bb72-0c1d-11ee-8c4c-3417ebf03b70",
+    updated_on: 1733579883,
+    brand_id: "d5b74b07-8979-44b6-a328-4b6287a36b26",
+    organization_id: 1,
+    brand_name: {
+      1: "GENCREST",
+      2: "जेनक्रेस्ट"
+    },
+    display_priority: 36,
+    is_featured: true,
+    brand_name_default_en: "GENCREST",
+    slug: "GENCREST",
+    brand_description: {
+      1: "Gencrest is a biotech company that develops sustainable products and solutions for everyday life. Their mission is to create green science for greener lives. ",
+      2: "जेनक्रेस्ट एक बायोटेक कंपनी है जो रोजमर्रा की जिंदगी के लिए टिकाऊ उत्पाद और समाधान विकसित करती है। उनका मिशन हरित जीवन के लिए हरित विज्ञान का निर्माण करना है।"
+    }
+  },
+  {
+    brand_image:
+      "https://kborg.s3.ap-south-1.amazonaws.com/1/brand_image/c77a3b3b-9b73-4786-b739-b18852318af3__original.png",
+    is_active: true,
+    additional_information: null,
+    created_by: "3475bb72-0c1d-11ee-8c4c-3417ebf03b70",
+    created_on: 1733579883,
+    updated_by: "3475bb72-0c1d-11ee-8c4c-3417ebf03b70",
+    updated_on: 1733579883,
+    brand_id: "d5b74b07-8979-44b6-a328-4b6287a36b26",
+    organization_id: 1,
+    brand_name: {
+      1: "GENCREST",
+      2: "जेनक्रेस्ट"
+    },
+    display_priority: 36,
+    is_featured: true,
+    brand_name_default_en: "GENCREST",
+    slug: "GENCREST",
+    brand_description: {
+      1: "Gencrest is a biotech company that develops sustainable products and solutions for everyday life. Their mission is to create green science for greener lives. ",
+      2: "जेनक्रेस्ट एक बायोटेक कंपनी है जो रोजमर्रा की जिंदगी के लिए टिकाऊ उत्पाद और समाधान विकसित करती है। उनका मिशन हरित जीवन के लिए हरित विज्ञान का निर्माण करना है।"
+    }
+  },
+  {
+    brand_image:
+      "https://kborg.s3.ap-south-1.amazonaws.com/1/brand_image/c77a3b3b-9b73-4786-b739-b18852318af3__original.png",
+    is_active: true,
+    additional_information: null,
+    created_by: "3475bb72-0c1d-11ee-8c4c-3417ebf03b70",
+    created_on: 1733579883,
+    updated_by: "3475bb72-0c1d-11ee-8c4c-3417ebf03b70",
+    updated_on: 1733579883,
+    brand_id: "d5b74b07-8979-44b6-a328-4b6287a36b26",
+    organization_id: 1,
+    brand_name: {
+      1: "GENCREST",
+      2: "जेनक्रेस्ट"
+    },
+    display_priority: 36,
+    is_featured: true,
+    brand_name_default_en: "GENCREST",
+    slug: "GENCREST",
+    brand_description: {
+      1: "Gencrest is a biotech company that develops sustainable products and solutions for everyday life. Their mission is to create green science for greener lives. ",
+      2: "जेनक्रेस्ट एक बायोटेक कंपनी है जो रोजमर्रा की जिंदगी के लिए टिकाऊ उत्पाद और समाधान विकसित करती है। उनका मिशन हरित जीवन के लिए हरित विज्ञान का निर्माण करना है।"
+    }
+  },
+  {
+    brand_image:
+      "https://kborg.s3.ap-south-1.amazonaws.com/1/brand_image/c77a3b3b-9b73-4786-b739-b18852318af3__original.png",
+    is_active: true,
+    additional_information: null,
+    created_by: "3475bb72-0c1d-11ee-8c4c-3417ebf03b70",
+    created_on: 1733579883,
+    updated_by: "3475bb72-0c1d-11ee-8c4c-3417ebf03b70",
+    updated_on: 1733579883,
+    brand_id: "d5b74b07-8979-44b6-a328-4b6287a36b26",
+    organization_id: 1,
+    brand_name: {
+      1: "GENCREST",
+      2: "जेनक्रेस्ट"
+    },
+    display_priority: 36,
+    is_featured: true,
+    brand_name_default_en: "GENCREST",
+    slug: "GENCREST",
+    brand_description: {
+      1: "Gencrest is a biotech company that develops sustainable products and solutions for everyday life. Their mission is to create green science for greener lives. ",
+      2: "जेनक्रेस्ट एक बायोटेक कंपनी है जो रोजमर्रा की जिंदगी के लिए टिकाऊ उत्पाद और समाधान विकसित करती है। उनका मिशन हरित जीवन के लिए हरित विज्ञान का निर्माण करना है।"
+    }
+  },
 ];

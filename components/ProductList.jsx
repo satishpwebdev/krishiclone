@@ -1,5 +1,5 @@
 import React from "react";
-import { brands } from "@/constants/brands";
+import { trending } from "@/constants/trending";
 const ProductList = () => {
   return (
     <>
@@ -9,13 +9,13 @@ const ProductList = () => {
         </h3>
         <div className="w-full px-4 pb-8 lg:p-8 ">
           <div className="grid md:grid-cols-[repeat(auto-fill,minmax(220px,1fr))] grid-cols-2 gap-4">
-            {brands.slice(0, 20).map((item) => (
+            {trending.slice(0, 30).map((item) => (
               <article className="product-card cart-type-neon h-full transform overflow-hidden rounded border border-border-200 bg-light shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow">
                 <div className="relative flex h-40 w-auto cursor-pointer items-center justify-center sm:h-40 bg-white">
-                  <span className="skp-only">Product Image</span>
+                  {/* <span className="skp-only">Product Image</span> */}
                   <img
                     className="product-image absolute h-full w-full inset-0 transparent object-contain"
-                    src="https://krishibarters.com/_next/image?url=https%3A%2F%2Fkborg.s3.ap-south-1.amazonaws.com%2F1%2Fproduct_image%2F07806150-2ea3-4bb9-a99e-29249feefc39__original.jpeg&w=1920&q=75"
+                    src={item.images[0]}
                     sizes=""
                     alt=""
                   />
@@ -45,15 +45,15 @@ const ProductList = () => {
                   </div>
                 </div>
                 <header className="price-wrap text-black p-2 md:p-2 bg-white">
-                  <div className="mb-2 flex items-center">
-                    <span class="text-sm font-semibold text-heading md:text-base">₹18,900.00</span>
+                  <div className="mb-2 flex items-center gap-2">
+                    <span class="text-sm font-semibold text-heading md:text-base text-green-600">₹ {item.prices.selling_price.toFixed(2)} </span>
                     <span class="text-xs text-muted line-through decoration-2 ltr:ml-2 rtl:mr-2 md:text-sm">
-                      ₹27,000.00
+                      ₹ {item.prices.mrp.toFixed(2)}
                     </span>
                   </div>
                   <div className="flex items-center justify-between gap-2">
-                    <h3 class="mb-4 cursor-pointer truncatetext-xs uppercase text-body md:text-sm">
-                      MOMIJI (12 x 60 gm)
+                    <h3 class="mb-4 line-clamp-3 cursor-pointer truncate text-xs uppercase text-body md:text-sm">
+                      {item.name}
                     </h3>
                     <h3 class="mb-4 cursor-pointer truncate text-xs text-body md:text-sm"></h3>
                   </div>
