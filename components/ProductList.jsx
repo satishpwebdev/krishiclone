@@ -4,7 +4,9 @@ const ProductList = () => {
 
 
 
-  //discount calculation
+  
+
+//Discount handler
   function discount(item){
     let discount = (item.prices.mrp - item.prices.selling_price) / item.prices.mrp * 100;
     return discount.toFixed(2);
@@ -20,7 +22,6 @@ const ProductList = () => {
             {trending.slice(0, 30).map((item) => (
               <article className="product-card cart-type-neon h-full transform overflow-hidden rounded border border-border-200 bg-light shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow">
                 <div className="relative flex h-40 w-auto cursor-pointer items-center justify-center sm:h-40 bg-white">
-                  {/* <span className="skp-only">Product Image</span> */}
                   <img
                     className="product-image absolute h-full w-full inset-0 transparent object-contain"
                     src={item.images[0]}

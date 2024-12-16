@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <div className="footer-wrapper flex w-full flex-col border-gray-800 lg:border-b-8">
+      <div className="footer-wrapper flex w-full overflow-x-hidden flex-col border-gray-800 lg:border-b-8">
         {/* <div className="footer-top grid w-full grid-cols-[repeat(auto-fill,minmax(260px,1fr))] gap-6 px-5 pt-6 md:grid-cols-3 md:px-10  lg:grid-cols-[repeat(auto-fill,minmax(220px,1fr))] lg:gap-8 lg:px-[50px] lg:pb-3 lg:pt-8 xl:grid-cols-[repeat(auto-fill,minmax(220px,1fr))] xl:gap-8 "> */}
         <div className="footer-top flex">
           <div className="flex flex-col mx-4">
