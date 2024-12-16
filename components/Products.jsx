@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ProductList from "./ProductList";
-import { RiArrowDropDownLine } from "react-icons/ri";
+// import { RiArrowDropDownLine } from "react-icons/ri";
+import { IoIosArrowDown } from "react-icons/io";
 const Products = () => {
   const [isOpen, setOpen] = useState(null);
 
@@ -35,13 +36,14 @@ const Products = () => {
                 <div className="flex items-center flex-col justify-between my-3">
                   {ListArrays.map((item, index) => (
                     <>
-                      <div className="flex items-center justify-between w-full my-3 cursor-pointer">
+                      <button onClick={()=> {setOpen(0)}} className="flex items-center justify-between w-full my-3 cursor-pointer">
                         <h2 className="text-[1.1rem] ">{item.title}</h2>
-                        <RiArrowDropDownLine size={28}></RiArrowDropDownLine>
-                      </div>
-                      <div className="flex flex-col">
+                        <IoIosArrowDown  className="text-green-600" size={20}></IoIosArrowDown>
+                      </button>
+                      <div className="flex flex-col items-start ">
                         {DropDownInbox.map((list) => (
                           <>
+          
                             {isOpen === index && (
                               <label htmlFor="">
                                 <input type="checkbox" className="mr-2" />
