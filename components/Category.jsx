@@ -68,13 +68,13 @@ const Category = () => {
           >
             {data.map((item) => (
               <SwiperSlide key={item.id}>
-                <div className="flex flex-col items-center justify-center">
+                <div className="flex flex-col items-center justify-center ">
                   <img
-                    className="rounded-full hover:shadow-lg hover:-translate-y-1 transform-gpu my-4 hover:cursor-pointer"
+                    className=" h-16 w-16 md:h-40 md:w-40 rounded-full hover:shadow-lg hover:-translate-y-1 transform-gpu my-4 hover:cursor-pointer"
                     src={item.category_image}
                     alt={item.category_name_default_en}
                   />
-                  <h2 className="mt-3 font-semibold leading-5 line-clamp-2 text-green-600 text-sm">
+                  <h2 className="mt-3 font-semibold leading-5 line-clamp-2 text-green-600 text-xs text-center md:text-sm">
                     {item.category_name_default_en}
                   </h2>
                 </div>

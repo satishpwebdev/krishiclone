@@ -6,7 +6,9 @@ import Trending from "./Trending";
 const HomePage = () => {
   return (
     <div className="overflow-hidden">
-      <Category />
+      <div className="mx-2 md:mx-10">
+        <Category />
+      </div>
       <Banner />
       <FeaturedBrands />
       <Trending />

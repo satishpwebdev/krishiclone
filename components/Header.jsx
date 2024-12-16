@@ -18,7 +18,6 @@ export default function Header() {
 
   const handleSearch = (e) => {
     e.preventDefault();
-    // Implement search functionality here
     console.log("Searching for:", searchQuery);
   };
 
@@ -27,7 +26,7 @@ export default function Header() {
       <div className="max-w-8xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-[4.5rem]">
           {/* Logo */}
-          <div  className="flex-shrink-0 flex items-center px-5">
+          <div  className="flex-shrink-0 flex items-center px-1 ">
             <Link href={'/'}>
             <Image src={Logo} height={45}></Image>
             </Link>
