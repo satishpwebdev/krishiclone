@@ -1,13 +1,25 @@
 import React, { useState, useEffect } from "react";
 import ProductList from "./ProductList";
-// import { RiArrowDropDownLine } from "react-icons/ri";
 import { IoIosArrowDown } from "react-icons/io";
 const Products = () => {
   const [isOpen, setOpen] = useState(null);
 
   const ListArrays = [
-    { title: "Brands" },
-    { title: "Category" },
+    { title: "Brands", List:[
+      { list: "Bayer" },
+      { list: "Green Life" },
+      { list: "Nacl" },
+      { list: "Bharat Certis" },
+      { list: "IFFCO Mc" },
+      { list: "Crystal" }
+    ]},
+    { title: "Category",  List:[
+      { list: "Catone" },
+      { list: "Cattwo" },
+      { list: "CatThree" },
+      { list: "CatFour" },
+      { list: "CatFive" },
+      { list: "CatSix" } ]},
     { title: "Pre Or Post Emergence" },
     { title: "Selective on Non" },
     { title: "Cerfified Or Research" },
@@ -36,15 +48,22 @@ const Products = () => {
                 <div className="flex items-center flex-col justify-between my-3">
                   {ListArrays.map((item, index) => (
                     <>
-                      <button onClick={()=> {setOpen(0)}} className="flex items-center justify-between w-full my-3 cursor-pointer">
+                      <button
+                        onClick={() => {
+                          const itemLength = item?.List?.map((item)=> item)
+                          console.log("Hel", itemLength)
+                          itemLength ? setOpen(true): setOpen(false)
+                        }}
+                        className="flex items-center justify-between w-full my-3 cursor-pointer"
+                      >
                         <h2 className="text-[1.1rem] ">{item.title}</h2>
-                        <IoIosArrowDown  className="text-green-600" size={20}></IoIosArrowDown>
+                        <IoIosArrowDown className="text-green-600" size={20}></IoIosArrowDown>
                       </button>
                       <div className="flex flex-col items-start ">
-                        {DropDownInbox.map((list) => (
+                        {item?.List?.map((list, ind) => (
+                        console.log("idn", ind),
                           <>
-          
-                            {isOpen === index && (
+                            {isOpen ===true && (
                               <label htmlFor="">
                                 <input type="checkbox" className="mr-2" />
                                 <span className="text-sm">{list.list}</span>

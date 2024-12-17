@@ -5,6 +5,7 @@ import FeaturedBrands from "./FeaturedBrands";
 import Trending from "./Trending";
 import Products from "./Products";
 import TestSticky from "./TestSticky";
+import BlogBanner from "./BlogBanner";
 
 const HomePage = () => {
   return (
@@ -18,6 +19,9 @@ const HomePage = () => {
         <Trending />
       </div>
       <Products />
+      <div className="md:mx-8 md:my-4 mx-4">
+        <BlogBanner />
+      </div>
     </>
   );
 };
