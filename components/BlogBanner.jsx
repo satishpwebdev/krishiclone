@@ -67,7 +67,7 @@ const BlogBanner = () => {
                 <div className="product-card cart-type-neon h-full transform overflow-hidden rounded border border-border-200 bg-light shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow">
                   <div className="relative h-30 md:h-38 lg:h-44 xl:h-50">
                     <img
-                      src="https://krishibarters.com/_next/image?url=https%3A%2F%2Fkborg.s3.ap-south-1.amazonaws.com%2F1%2Fkb_images%2F9473170d-2a05-4eb3-8bff-a927a3500896__original.jpeg&w=1920&q=75"
+                      src="https://krishibarters.com/_next/image?url=https%3A%2F%2Fkborg.s3.ap-south-1.amazonaws.com%2F1%2Fkb_images%2Fefbda8e0-fb29-43c4-8841-17248f79e2c0__original.jpeg&w=1920&q=75"
                       className=" h-full w-full inset-0 object-cover"
                       alt=""
                     />

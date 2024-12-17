@@ -15,8 +15,10 @@ const HomePage = () => {
           <Category />
         </div>
         <Banner />
-        <FeaturedBrands />
-        <Trending />
+        <div className="mx-2 md:mx-8">
+          <FeaturedBrands />
+          <Trending />
+        </div>
       </div>
       <Products />
       <div className="md:mx-8 md:my-4 mx-4">
