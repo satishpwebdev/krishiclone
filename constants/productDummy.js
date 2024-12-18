@@ -82,7 +82,7 @@ const dummyProducts = [
         imgs: [
           {
             web: [
-              { src: "https://krishibarters.com/_next/image?url=https%3A%2F%2Fkborg.s3.ap-south-1.amazonaws.com%2F1%2Fproduct_image%2F7c929586-07f6-40cd-9a9e-f64406ffebca__original.jpeg&w=1080&q=75" },
+              { src: "https://krishibarters.com/_next/image?url=https%3A%2F%2Fkborg.s3.ap-south-1.amazonaws.com%2F1%2Fproduct_image%2F4b927638-c4de-4844-af7b-1bdeadce3312__original.jpeg&w=1920&q=75" },
               { src: "https://krishibarters.com/_next/image?url=https%3A%2F%2Fkborg.s3.ap-south-1.amazonaws.com%2F1%2Fproduct_image%2F07806150-2ea3-4bb9-a99e-29249feefc39__original.jpeg&w=1080&q=75" },
               { src: "https://krishibarters.com/_next/image?url=https%3A%2F%2Fkborg.s3.ap-south-1.amazonaws.com%2F1%2Fproduct_image%2F07806150-2ea3-4bb9-a99e-29249feefc39__original.jpeg&w=1080&q=75" },
             ],
