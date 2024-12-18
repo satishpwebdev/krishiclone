@@ -11,12 +11,14 @@ const index = ({ products }) => {
   const footer = "footer";
   const about = "footer";
   const router = useRouter();
+  const {slug} = router.query
+  const filterProduct = products.filter((product)=> product._id ==slug[1])
 
   return (
     <>
       <Header></Header>
       <h1>Loading Product</h1>
-      <ProductDetails products={products} />
+      <ProductDetails products={filterProduct} />
     </>
   );
 };

@@ -52,7 +52,7 @@ const ProductDetails = ({ products }) => {
     setShadeColor(products[0]?.attrs?.value);
   }, [products]);
 
-  console.log("hds", showText);
+  console.log("query", router.query);
 
   return (
     <>

@@ -1,6 +1,7 @@
 const dummyProducts = [
     {
-      name: "Premium Chemical Bottle",
+      _id:"3e14ad16-9a24-4da5-9ab4-de5c318ae7bc",
+      name: "MOMIJI (12 X60 GM)",
       description: [
         // { id: 1, val: "1. High-quality material\n2. Leak-proof design\n3. Suitable for laboratory use" },
         { id: 1, val: "Shift is a herbicide which belongs to chloroacetamide group. Shift is selective broad spectrum preemergence herbicide for transplanted rice. Shift inhibits growth and cell division . Shift has excellent control against broad leaf weeds, sedges and grasses." },
@@ -70,7 +71,8 @@ const dummyProducts = [
       item_specification: "Durable, Chemical Resistant, Leak-Proof",
     },
     {
-      name: "Premium Chemical Bottle",
+      _id:"78e376b0-1360-41c6-bfba-f0994ae62a8c",
+      name: "GREEN LIFE TOMATO YUVRAJ",
       description: [
         { id: 1, val: "1. High-quality material\n2. Leak-proof design\n3. Suitable for laboratory use" },
         { id: 2, val: "Shift is a herbicide which belongs to chloroacetamide group. Shift is selective broad spectrum preemergence herbicide for transplanted rice. Shift inhibits growth and cell division . Shift has excellent control against broad leaf weeds, sedges and grasses." },
@@ -80,9 +82,9 @@ const dummyProducts = [
         imgs: [
           {
             web: [
-              { src: "https://m.media-amazon.com/images/I/61hBgZ2zGML._AC_UF894,1000_QL80_.jpg" },
-              { src: "https://m.media-amazon.com/images/I/41hIoanZbrL._AC_UF894,1000_QL80_.jpg" },
-              { src: "https://m.media-amazon.com/images/I/61t5um0sP3L._AC_UF894,1000_QL80_.jpg" },
+              { src: "https://krishibarters.com/_next/image?url=https%3A%2F%2Fkborg.s3.ap-south-1.amazonaws.com%2F1%2Fproduct_image%2F7c929586-07f6-40cd-9a9e-f64406ffebca__original.jpeg&w=1080&q=75" },
+              { src: "https://krishibarters.com/_next/image?url=https%3A%2F%2Fkborg.s3.ap-south-1.amazonaws.com%2F1%2Fproduct_image%2F07806150-2ea3-4bb9-a99e-29249feefc39__original.jpeg&w=1080&q=75" },
+              { src: "https://krishibarters.com/_next/image?url=https%3A%2F%2Fkborg.s3.ap-south-1.amazonaws.com%2F1%2Fproduct_image%2F07806150-2ea3-4bb9-a99e-29249feefc39__original.jpeg&w=1080&q=75" },
             ],
           },
         ],

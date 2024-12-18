@@ -52,7 +52,7 @@ const Products = () => {
                         onClick={() => {
                           const itemLength = item?.List?.map((item)=> item)
                           console.log("Hel", itemLength)
-                          itemLength ? setOpen(true): setOpen(false)
+                          // itemLength ? setOpen(true): setOpen(false)
                         }}
                         className="flex items-center justify-between w-full my-3 cursor-pointer"
                       >
