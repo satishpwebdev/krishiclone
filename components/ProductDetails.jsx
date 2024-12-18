@@ -56,7 +56,7 @@ const ProductDetails = ({ products }) => {
 
   return (
     <>
-      <section className="w-full mt-12 bg-white text-black">
+      <section className="w-full mt-12 bg-gray-100 text-black">
         <div className="flex flex-col lg:flex-row  lg:gap-[27px] px-2 gap-[10px] md:px-[4rem] lg:mx-4 ">
           {/* left column start */}
           <div className="w-full md:w-auto flex-[1.5 max-w-[550px] md:min-w-[550px] mx-auto lg:mx-0 ">
@@ -67,8 +67,8 @@ const ProductDetails = ({ products }) => {
           {/* right column start */}
           <div className="flex-[] py-2 font-sans lg:ml-4 ">
             {/* PRODUCT TITLE */}
-            <div className="text-[22px] md:text-[32px] mt-2   font-fjal  flex w-full justify-between font-normal font-sans mb-1 leading-tight">
-              <div className="">{products[0]?.name}</div>
+            <div className="text-[22px] md:text-[32px] mt-2 md:mt-12  font-fjal  flex w-full justify-between font-normal font-sans mb-1 leading-tight">
+              <div className="text-green-600 tracking-tight">{products[0]?.name}</div>
               <div className="flex items-center hover:text-green-600 mx-2  ">
                 <IoIosShareAlt size={32} className=""></IoIosShareAlt>
                 <h6 className="text-sm  font-fira px-1 italic">Share</h6>
