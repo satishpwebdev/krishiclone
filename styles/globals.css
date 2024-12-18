@@ -31,3 +31,9 @@ body {
   scrollbar-width: none; 
 }
 
+
+/* ::-webkit-scrollbar-thumb{
+  background: #cfcfcf ;
+  border-radius: 20px;
+} */
+

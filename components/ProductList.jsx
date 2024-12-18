@@ -2,13 +2,13 @@ import React from "react";
 import { trending } from "@/constants/trending";
 const ProductList = () => {
 
-
-
-  
-
-//Discount handler
-  function discount(item){
-    let discount = (item.prices.mrp - item.prices.selling_price) / item.prices.mrp * 100;
+  const handleOpenLink =(name,id)=>{
+    const url = `/product/${encodeURIComponent(name)?.replace(/%20/g, "-").toLowerCase()}/${id}`;
+       window.open(url, '_self');
+  }
+  //Discount handler
+  function discount(item) {
+    let discount = ((item.prices.mrp - item.prices.selling_price) / item.prices.mrp) * 100;
     return discount.toFixed(2);
   }
   return (
@@ -27,6 +27,8 @@ const ProductList = () => {
                     src={item.images[0]}
                     sizes=""
                     alt=""
+                    onClick={()=> handleOpenLink(item?.name, item?.id)}
+                    
                   />
                   <div className="flex flex-row-reverse ">
                     <div className="class absolute top-4 left-4">
@@ -55,7 +57,9 @@ const ProductList = () => {
                 </div>
                 <header className="price-wrap text-black p-2 md:p-2 bg-white">
                   <div className="mb-2 flex items-center gap-2">
-                    <span class="text-sm font-semibold text-heading md:text-base text-green-600">₹ {item.prices.selling_price.toFixed(2)} </span>
+                    <span class="text-sm font-semibold text-heading md:text-base text-green-600">
+                      ₹ {item.prices.selling_price.toFixed(2)}{" "}
+                    </span>
                     <span class="text-xs text-muted line-through decoration-2 ltr:ml-2 rtl:mr-2 md:text-sm">
                       ₹ {item.prices.mrp.toFixed(2)}
                     </span>
