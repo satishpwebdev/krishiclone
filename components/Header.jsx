@@ -24,7 +24,7 @@ export default function Header() {
   return (
     <header className="bg-white shadow-md min-w-full fixed top-0 z-20">
       <div className="max-w-8xl mx-auto px-4 sm:px-6">
-        <div className="flex items-center justify-between h-[4.5rem]">
+        <div className="flex items-center justify-between h-[3.9rem]">
           {/* Logo */}
           <div  className="flex-shrink-0 flex items-center px-1 ">
             <Link href={'/'}>
@@ -84,6 +84,24 @@ export default function Header() {
               <div className=" text-center px-4 py-1.5 rounded-lg bg-gray-50 border-2">
                 <Link href={'/about'}>
                About
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="hidden search-header-wrap mx-auto  lg:block   ">
+            <div className="header-search relative flex rounded-lg text-black mx-1 bg-gray-100  ">
+              <div className="whitespace-nowrap hover:bg-green-600   text-md text-center px-3 py-1.5 text-white rounded-lg bg-black ">
+                <Link href={'/'}>
+               Sign Up
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="hidden search-header-wrap mx-auto  lg:block   ">
+            <div className="header-search relative flex rounded-lg text-black mx-1 bg-gray-100  ">
+              <div className="whitespace-nowrap hover:bg-green-600  text-md text-center px-3 py-1.5 text-white rounded-lg bg-black ">
+                <Link href={'/'}>
+               Login
                 </Link>
               </div>
             </div>
