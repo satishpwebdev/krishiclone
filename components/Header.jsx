@@ -46,7 +46,7 @@ export default function Header() {
                       id="search"
                       type="text"
                       autoComplete="off"
-                      className="search item-center outline-none rounded-l-lg border-2 py-4 border-gray-200 px-6 flex h-full w-full  overflow-hidden text-black text-md text-heading placeholder-gray-300 "
+                      className="search item-center outline-none rounded-l-lg border-[1.2px] py-4 border-gray-300 px-6 flex h-full w-full  overflow-hidden text-black text-md text-heading placeholder-gray-300 "
                       name="search"
                       placeholder="Search your products from here"
                       defaultValue=""
@@ -73,7 +73,7 @@ export default function Header() {
 
           <div className="hidden search-header-wrap mx-auto md:h-10 lg:block  ">
             <div className="header-search relative flex rounded-lg text-black h-10 bg-gray-100  md:h-10">
-              <select className="px-2 rounded-lg bg-gray-50 border-2">
+              <select className="px-2 rounded-lg bg-white outline-none border-[1.3px]">
                 <option value="eng">English</option>
                 <option value="hi">Hindi</option>
               </select>
@@ -81,7 +81,7 @@ export default function Header() {
           </div>
           <div className="hidden search-header-wrap mx-auto  lg:block   ">
             <div className="header-search relative flex rounded-lg text-black mx-2 bg-gray-100  ">
-              <div className=" text-center px-4 py-1.5 rounded-lg bg-gray-50 border-2">
+              <div className=" text-center  px-4 py-1.5 rounded-lg bg-white border-[1.3px]">
                 <Link href={'/about'}>
                About
                 </Link>
@@ -112,9 +112,9 @@ export default function Header() {
           <div className="md:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
+              className="inline-flex outline-none items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
             >
-              {isMenuOpen ? <X className="block h-6 w-6" /> : <Menu className="block h-6 w-6" />}
+              {isMenuOpen ? <X className="block h-6 w-6 outline-none" /> : <Menu className="block h-6 w-6 outline-none" />}
             </button>
           </div>
         </div>

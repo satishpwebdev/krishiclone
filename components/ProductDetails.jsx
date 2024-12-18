@@ -56,7 +56,7 @@ const ProductDetails = ({ products }) => {
 
   return (
     <>
-      <section className="w-full mt-12 bg-gray-100 text-black">
+      <section className="w-full py-10 bg-gray-100 text-black">
         <div className="flex flex-col lg:flex-row  lg:gap-[27px] px-2 gap-[10px] md:px-[4rem] lg:mx-4 ">
           {/* left column start */}
           <div className="w-full md:w-auto flex-[1.5 max-w-[550px] md:min-w-[550px] mx-auto lg:mx-0 ">
