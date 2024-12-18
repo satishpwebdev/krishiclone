@@ -4,7 +4,7 @@ import { Carousel } from "react-responsive-carousel";
 
 const ProductCarousel = ({ imageData, mainImg }) => {
    return (
-      <div className="text-white text-[20px] max-w-[1024px] mx-auto sticky top-[125px]">
+      <div className="text-white text-[20px] max-w-[1024px] mx-auto sticky top-[125px] focus:outline-none">
          <Carousel infiniteLoop={true} showIndicators={false} showStatus={false} showArrows={false} thumbWidth={50} className="productCarousel">
             {imageData[0]?.assets?.imgs[0]?.web?.map((item, index) => (
                         <img

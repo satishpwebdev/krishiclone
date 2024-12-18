@@ -187,15 +187,11 @@ const ProductDetails = ({ products }) => {
           {/* right column end */}
         </div>
         {/* See More Product Slider  */}
-        <div className="see more md:mt-4 ">
+        <div className="see more md:mt-4">
           <div className="text-center flex justify-center text-[15px]  md:text-[22px] mb-4 mt-2 lg:mx-2  font-fjal ">
-            <div className="relative lg:w-[30%] w-ful w-[60%]  flex items-center justify-center md:py-4  py-5">
-              <Image
-                // src={Also}
-                alt="pinkline_also_like"
-                className="absolute md:top-0 top-1 left-0 w-full h-full rounded-full object-cover  md:object-cover"
-              />
-              {/* <p className="relative  text- text-black md:m-[10px] md:mr-12 mr-12 ">You May Also Like</p> */}
+            <div className="relative bg-white lg:w-[30%] w-ful w-[60%]  flex items-center justify-center md:py-4  py-5">
+             {/* <img src="" alt="" /> */}
+              <p className="relative  text- text-black md:m-[10px] md:mr-12 mr-12 ">Related Products</p>
             </div>
           </div>
           {/* <RelatedProducts productId={products[0]?.category} /> */}
