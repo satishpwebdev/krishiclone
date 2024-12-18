@@ -23,9 +23,9 @@ const RelatedProducts = () => {
 
   return (
     <>
-      <div className="relative w-full py-2 px-16">
+      <div className="relative w-full py-2 md:px-16 px-6">
         <button
-          className={`swiper-button-prev-tn absolute top-[50%] md:top-[56%] left-12 z-10 rounded-full transform -translate-y-1/2 bg-gray-100 text-white px-1 py-1 ${
+          className={`swiper-button-prev-tn absolute top-[50%] md:top-[56%] left-2 md:left-12 z-10 rounded-full transform -translate-y-1/2 bg-gray-100 text-white px-1 py-1 ${
             isBeginning ? "cursor-not-allowed opacity-50 hidden" : ""
           }`}
           aria-label="Previous Slide"
@@ -35,7 +35,7 @@ const RelatedProducts = () => {
         </button>
 
         <button
-          className={`swiper-button-next-tn absolute top-[50%] md:top-[56%] right-12 z-10 rounded-full transform -translate-y-1/2 bg-gray-100 text-white px-1 py-1 ${
+          className={`swiper-button-next-tn absolute top-[50%] md:top-[56%] right-2 md:right-12 z-10 rounded-full transform -translate-y-1/2 bg-gray-100 text-white px-1 py-1 ${
             isEnd ? "cursor-not-allowed opacity-50 hidden" : ""
           }`}
           aria-label="Next Slide"
@@ -60,7 +60,7 @@ const RelatedProducts = () => {
             breakpoints={{
               640: { slidesPerView: 3, spaceBetween: 20 },
               600: { slidesPerView: 5, spaceBetween: 20 },
-              768: { slidesPerView: 4, spaceBetween: 40 },
+              768: { slidesPerView: 3, spaceBetween: 40 },
               1024: { slidesPerView: 4, spaceBetween: 40 },
               1200: { slidesPerView: 4, spaceBetween: 20 }
             }}
