@@ -37,3 +37,14 @@ body {
   border-radius: 20px;
 } */
 
+
+.carousel .thumb.selected, .carousel .thumb .selected{
+  border: 2px solid #04f20c !important;
+}
+/* .carousel .thumb.selected, .carousel .thumb{
+  border: 0px solid #c72a2a !important;
+} */
+
+.carousel .thumb{
+border: 1px solid #fff !important;
+}

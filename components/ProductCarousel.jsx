@@ -10,7 +10,7 @@ const ProductCarousel = ({ imageData, mainImg }) => {
                         <img
                           src={index==0 ? mainImg :item?.src}
                           key={index}
-                          className="w-32 h-auto aspect-[4/4] object-contain"
+                          className="w-32 h-auto aspect-[4/4] object-contain focus:outline-none"
                           alt="krishiclone"
                         />
                 ))}
