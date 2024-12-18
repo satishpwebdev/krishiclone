@@ -4,6 +4,7 @@ import { useRouter } from "next/router";
 import { MdOutlineVerified } from "react-icons/md";
 import Image from "next/image";
 import ProductCarousel from "./ProductCarousel";
+import RelatedProducts from "./RelatedProduct";
 
 const ProductDetails = ({ products }) => {
   const footer = "footer";
@@ -81,12 +82,9 @@ const ProductDetails = ({ products }) => {
             </div>
 
             {/* shade name  */}
-           
 
             {/* Shade Color  */}
             <div className="">
-              
-
               <div className="product extra info font-poppins text-black">
                 <div className=" flex items-center mb-1 mt-5 lg:">
                   <div className="flex  gap-4 items-center justify-center">
@@ -142,7 +140,6 @@ const ProductDetails = ({ products }) => {
             </div>
 
             {/* quality check */}
-            
 
             <div className="allDetails my-2">
               <div className="flex justify-between w-full gap-2">
@@ -187,14 +184,8 @@ const ProductDetails = ({ products }) => {
           {/* right column end */}
         </div>
         {/* See More Product Slider  */}
-        <div className="see more md:mt-4">
-          <div className="text-center flex justify-center text-[15px]  md:text-[22px] mb-4 mt-2 lg:mx-2  font-fjal ">
-            <div className="relative bg-white lg:w-[30%] w-ful w-[60%]  flex items-center justify-center md:py-4  py-5">
-             {/* <img src="" alt="" /> */}
-              <p className="relative  text- text-black md:m-[10px] md:mr-12 mr-12 ">Related Products</p>
-            </div>
-          </div>
-          {/* <RelatedProducts productId={products[0]?.category} /> */}
+        <div className="bg-white mx-auto md:mx-20">
+          <RelatedProducts productId={products[0]?.category} />
         </div>
       </section>
     </>
