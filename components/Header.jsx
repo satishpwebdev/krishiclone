@@ -117,10 +117,11 @@ export default function Header() {
             <nav className="fixed bottom-0 z-10 top-0 flex items-center bg-white h-14 w-full justify-between bg-light py-1.5 px-2 shadow-400 ltr:left-0 rtl:right-0 md:h-16">
               <div className="user-side flex flex-row-reverse ">
                 <button
+                  onClick={() => setIsMenuOpen(!isMenuOpen)}
                   className="flex  h-full menu-icon items-center justify-center p-2 focus:text-accent focus:outline-0"
                   tabIndex={0}
                 >
-                  <CgMenuLeft className="text-green-500" size={25} />
+                  <CgMenuLeft className="text-green-600" size={25} />
                 </button>
                 <button
                   className="flex h-full user-icon items-center justify-center p-2 focus:text-accent focus:outline-0"
@@ -133,7 +134,7 @@ export default function Header() {
               <div className="mobile-logo">
                 <div className="flex-shrink-0 flex items-center px-1 ">
                   <Link href={"/"}>
-                    <Image src={Logo} height={25}></Image>
+                    <Image src={Logo} height={33}></Image>
                   </Link>
                 </div>
               </div>
@@ -142,13 +143,13 @@ export default function Header() {
                   className="product-cart relative flex h-full items-center justify-center p-2 focus:text-accent focus:outline-0"
                   tabIndex={0}
                 >
-                  <IoMdCart className="text-green-600" size={23} />
+                  <IoMdCart className="text-green-700" size={23} />
                 </button>
                 <button
                   className="product-cart relative flex h-full items-center justify-center p-2 focus:text-accent focus:outline-0"
                   tabIndex={0}
                 >
-                  <FaBell className="text-green-600" size={20} />
+                  <FaBell className="text-green-500" size={20} />
                 </button>
               </div>
             </nav>
@@ -158,35 +159,35 @@ export default function Header() {
 
       {/* Mobile menu */}
       {isMenuOpen && (
-        <></>
-        // <div className="lg:hidden">
-        //   <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-        //     {navItems.map((item) => (
-        //       <a
-        //         key={item.name}
-        //         href={item.href}
-        //         className="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:text-blue-600 hover:bg-gray-50"
-        //       >
-        //         {item.name}
-        //       </a>
-        //     ))}
-        //   </div>
+        // <></>
+        <div className="lg:hidden">
+          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+            {navItems.map((item) => (
+              <a
+                key={item.name}
+                href={item.href}
+                className="block px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:text-blue-600 hover:bg-gray-50"
+              >
+                {item.name}
+              </a>
+            ))}
+          </div>
 
-        //   <div className="px-4 pb-4">
-        //     <form onSubmit={handleSearch}>
-        //       <div className="relative">
-        //         <input
-        //           type="text"
-        //           value={searchQuery}
-        //           onChange={(e) => setSearchQuery(e.target.value)}
-        //           placeholder="Search..."
-        //           className="w-full px-4 py-2 pl-10 pr-4 rounded-full border border-gray-300 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500"
-        //         />
-        //         <Search className="absolute left-3 top-2.5 h-5 w-5 text-gray-400" />
-        //       </div>
-        //     </form>
-        //   </div>
-        // </div>
+          <div className="px-4 pb-4">
+            <form onSubmit={handleSearch}>
+              <div className="relative">
+                <input
+                  type="text"
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  placeholder="Search..."
+                  className="w-full px-4 py-2 pl-10 pr-4 rounded-full border border-gray-300 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500"
+                />
+                <Search className="absolute left-3 top-2.5 h-5 w-5 text-gray-400" />
+              </div>
+            </form>
+          </div>
+        </div>
       )}
     </header>
   );
