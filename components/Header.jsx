@@ -114,7 +114,7 @@ export default function Header() {
             >
               {isMenuOpen ? <X className="block h-6 w-6 outline-none" /> : <Menu className="block h-6 w-6 outline-none" />}
             </button> */}
-            <nav className="fixed bottom-0 z-10 top-0 flex items-center bg-white h-14 w-full justify-between bg-light py-1.5 px-2 shadow-400 ltr:left-0 rtl:right-0 md:h-16">
+            <nav className="fixed bottom-0 z-10 top-0  flex items-center bg-white h-14 w-full justify-between bg-light py-1.5 px-2 shadow-400 ltr:left-0 rtl:right-0 md:h-16">
               <div className="user-side flex flex-row-reverse ">
                 <button
                   onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -131,10 +131,10 @@ export default function Header() {
                   <FcBusinessman className="text-green-500" size={22} />
                 </button>
               </div>
-              <div className="mobile-logo">
-                <div className="flex-shrink-0 flex items-center px-1 ">
+              <div className="mobile-logo ">
+                <div className="flex-shrink-0 flex items-center  ">
                   <Link href={"/"}>
-                    <Image src={Logo} height={33}></Image>
+                    <Image src={Logo} height={36}></Image>
                   </Link>
                 </div>
               </div>
