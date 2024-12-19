@@ -177,6 +177,7 @@ export default function Header() {
                   className="flex h-full items-center justify-center p-2 focus:text-accent focus:outline-0"
                   tabIndex={0}
                 >
+                  <Link href={'/'}>
                   <span className="sr-only">Home</span>
                   <svg width="17.996" height="20.442" viewBox="0 0 17.996 20.442">
                     <g transform="translate(-30.619 0.236)">
@@ -189,6 +190,8 @@ export default function Header() {
                       />
                     </g>
                   </svg>
+                  </Link>
+
                 </button>
                 <button
                   className="product-cart relative flex h-full items-center justify-center p-2 focus:text-accent focus:outline-0"
